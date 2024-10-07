@@ -1,0 +1,204 @@
+body {
+	background-image: url(https://wallpaperaccess.com/full/4718950.jpg);
+	background-position: center;
+	background-size: cover;
+     Backdrop-filter: blur(6px);
+}
+a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+	width: 10rem;
+	margin-left: 2rem;
+}
+
+a:hover {
+	color: #ff0c95 ;
+}
+
+a{
+	   color:red;
+	   font-size:56px;
+	   text-align:center;
+	   padding-top: 0%; 
+	   text-decoration: none;
+}
+	
+	nav{
+	position: relative;
+	width: 745px;
+	height: 50px;
+	background: black;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 20rem;
+	border: 3px solid white;
+	box-shadow: 0 0 15px blue;
+	
+}
+	
+nav a {
+	position : relative;
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	padding; 0 24px; 
+	padding-left: 23px;
+	z-index: 1;
+}
+
+nav span {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 145px;
+	 height: 92%;
+	 background: linear-gradient(45deg, #4f1919, #ff3333);
+	 border-radius: 8px;
+	 transition: 1.5s;
+	 border: 3px solid #39f7ff;
+}
+
+nav a:nth-child(1):hover~span{
+	left: 1px;
+	width: 148px;
+}
+
+nav a:nth-child(2):hover~span{
+	left: 146px;
+	width: 125px;
+}
+
+nav a:nth-child(3):hover~span{
+	left: 259px;
+	width: 130px;
+}
+
+nav a:nth-child(4):hover~span{
+	left: 379px;
+	width: 100px
+}
+
+nav a:nth-child(5):hover~span{
+	left: 471px;
+	width: 100px;
+	
+}
+nav a:nth-child(6):hover~span{
+	left: 565px;
+	width: 176px;
+
+}
+nav a:hover {
+	color: #1bfc06;
+}
+
+
+header{color:red;
+	   font-size:60px;
+	   text-align:center;
+	   padding-top: 3%;
+}
+h1 {
+	color:   white;
+	font-size: 70px;
+	text-align: center;
+}
+p { 
+    font-family: cursive;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+h2 {
+	font-family: calibri;
+	color: white;
+	font-size: 54px;
+	text-align: center;
+}
+h3 { 
+	color: brown;
+	font-size: 40px;
+	text-align: center;
+	margin-top: -50px;
+    font-family: Amiri;
+}
+
+p1 {
+	font-family: cursive;
+	color: white;
+	font-size: 24px;
+}
+h4 { 
+    text-align: center;
+	font-family: Georgia;
+	font-size: 40px;
+	text-decoration:none;
+	text-align: center;
+	color: #1bfc06
+	
+}
+
+h4 a{
+	font-family: Georgia;
+	font-size: 40px;
+	text-decoration:none;
+	text-align: center;
+	color: #1bfc06;
+}
+h5 a:hover {
+	background: linear-gradient(purple,black);
+	border-radius: 25px;
+	color: yellow;
+	font-family: calibri;
+	font-size: 40px;
+}
+h5 {
+	font-family: Georgia;
+	font-size: 20px;
+	text-decoration:none;
+	text-align: center;
+	color:white;
+}
+h5 a {
+	font-family: Sans-serif;
+	font-size: 30px;
+	text-decoration:none;
+	text-align: center;
+	color:white;
+}
+h6 a{
+	font-family: Georgia;
+	font-size: 36px;
+	text-decoration:none;
+	text-align: right;
+	color: yellow;
+}
+
+h6 {
+	font-family: Georgia;
+	font-size: 40px;
+	text-decoration:none;
+	text-align: center;
+	color: #1bfc06
+}
+
+h6 a:hover {
+	color: white;
+}
+
+
+footer {
+	color: white;
+	font-size: 25px;
+	font-weight: 150rem;
+	margin-top: 8rem;
+	background-color: black;
+	
+}

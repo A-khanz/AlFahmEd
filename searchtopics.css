@@ -1,0 +1,219 @@
+body {
+	background-image: url(https://w7.pngwing.com/pngs/276/665/png-transparent-desktop-1080p-high-definition-television-4k-resolution-miscellaneous-purple-violet.png);
+	background-position: center;
+	background-size:cover;
+	text-align: center;
+}
+
+
+a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+	width: 10rem;
+	margin-left: 2rem;
+}
+
+
+
+a:hover {
+	color: #ff0c95 ;
+}
+
+a{
+	   color:red;
+	   font-size:56px;
+	   text-align:center;
+	   padding-top: 0%; 
+	   text-decoration: none;
+}
+nav{
+	position: relative;
+	width: 745px;
+	height: 50px;
+	background: black;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display : inline-block;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+	border: 3px solid white;
+	box-shadow: 0 0 15px blue;
+	
+}
+nav a {
+	position : relative;
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	padding; 0 24px; 
+	padding-left: 23px;
+	z-index: 1;
+	
+}
+
+nav span {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 145px;
+	 height: 92%;
+	 background: linear-gradient(45deg, #4f1919, #ff3333);
+	 border-radius: 7px;
+	 transition: 1.5s;
+	 border: 3px solid #39f7ff;
+}
+
+nav a:nth-child(1):hover~span{
+	left: 15px;
+	width: 120px;
+}
+
+nav a:nth-child(2):hover~span{
+	left: 140px;
+	width: 130px;
+}
+
+nav a:nth-child(3):hover~span{
+	left: 259px;
+	width: 130px;
+}
+
+nav a:nth-child(4):hover~span{
+	left: 379px;
+	width: 110px
+}
+
+nav a:nth-child(5):hover~span{
+	left: 475px;
+	width: 108px;
+	
+}
+nav a:nth-child(6):hover~span{
+	left: 570px;
+	width: 169px;
+
+}
+nav a:hover {
+	color: #1bfc06;
+}
+
+h2 {
+	color: white;
+	font-family: cursive;
+	font-size: 45px;
+}
+h3 {
+	color: white;
+	font-family: cursive;
+	font-size: 30px;
+}
+.container{
+	width: 100%;
+	min-height: 100vh;
+	background-position:center;
+	background-size:cover;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+.search-bar{ 
+	width:200%;
+	max-width:900px;
+	background: rgba(255, 255, 255, 0.5);
+	display:flex;
+	align-items:center;
+	border-radius: 10px;
+	padding: 1px 1px;
+	margin-top: -500px;
+	Backdrop-filter: blur(-5px) saturate(180%);
+	border: 3px solid white;
+	box-shadow: 0 0 25px orange;
+}
+.search-bar input{
+	background: transparent;
+	flex: 1;
+	border:0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 26px;
+	color: black;
+}
+.search-bar button img{
+	width: 70px;
+	align-items: center;
+	margin-bottom: 80px;
+	margin-top: -32px;
+	margin-left: 10%;
+}
+.search-bar button{
+	border: 1px;
+	height: 7px;
+	width: 500;
+	cursor: pointer;
+	align-items: center;
+	background: transparent;
+}
+#searchInput {
+    width: 100px;
+    padding: 10px;
+    font-size: 29px;
+	color: black;
+	background-color: transparent;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+	align-items: center;
+	max-height: 500px; 
+	overflow-y: auto;
+	color: red;
+	font-weight: none;
+}
+
+.autocomplete-items div {
+    padding: 14px;
+    cursor: pointer;
+    background-image: url("https://r1.ilikewallpaper.net/ipad-wallpapers/download/11069/Black-Cubes-3D-ipad-wallpaper-ilikewallpaper_com.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto
+	background-position: absolute;
+	position: center;
+	color: yellow;
+	font-weight: none;
+}
+
+.a autocomplete-items div:hover {
+    background-color: yellow;
+	color: white; 
+	font-weight: 200px;
+
+}
+
+.a autocomplete-items{
+    color: red;
+    font-weight: 500px;
+	font-size: 25px;
+}
+.autocomplete-items:hover {
+	color: black;
+	font-weight: none;
+}
+footer {
+	color: white;
+	font-size: 20px;
+	font-weight: 150rem;
+	margin-top: 50px;
+	background-color: color;
+}

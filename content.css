@@ -1,0 +1,136 @@
+body {
+	background-image: url(https://wallpaperaccess.com/full/553437.jpg);
+	background-position: center;
+	background-size:cover;
+	Backdrop-filter: blur(5px);
+	text-align: center;
+}
+a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+	width: 10rem;
+	margin-left: 2rem;
+}
+
+nav{
+	position: relative;
+	width: 745px;
+	height: 51px;
+	background: black;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display : inline-block;
+	margin: 0 auto;
+	border: 3px solid white;
+	box-shadow: 0 0 15px blue;
+	margin-top: 1px;
+	
+}
+nav a {
+	position : relative;
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	padding; 0 29px; 
+	padding-left: 23px;
+	z-index: 1;
+	
+}
+
+nav span {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 145px;
+	 height: 95%;
+	 background: linear-gradient(45deg, #4f1919, #ff3333);
+	 border-radius: 9px;
+	 transition: 1.5s;
+	 border: 3px solid #39f7ff;
+}
+
+nav a:nth-child(1):hover~span{
+	left: 15px;
+	width: 120px;
+}
+
+nav a:nth-child(2):hover~span{
+	left: 140px;
+	width: 130px;
+}
+
+nav a:nth-child(3):hover~span{
+	left: 259px;
+	width: 130px;
+}
+
+nav a:nth-child(4):hover~span{
+	left: 379px;
+	width: 110px
+}
+
+nav a:nth-child(5):hover~span{
+	left: 475px;
+	width: 108px;
+	
+}
+nav a:nth-child(6):hover~span{
+	left: 580px;
+	width: 165px;
+
+}
+nav a:hover {
+	color: #1bfc06;
+}
+
+h1{color:white;
+   text-align:center;
+   font-size: 43px;
+}
+h2 {
+	color: orange;
+	text-align:center;
+    font-size: 40px;
+	font-family: calibri;
+}
+a:hover {
+	color: #ff0c95 ;
+
+}
+
+a{
+	   color:red;
+	   font-size:56px;
+	   text-align:center;
+	   padding-top: 0%; 
+	   text-decoration: none;
+	   transition: color 0.7s ease-in-out; 
+}
+
+ul {
+	list-style-type: none;
+}
+ul li::marker {
+	font-size: 3em;
+}
+li a {
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Georgia;
+}
+li a:hover {
+	background: radial-gradient(blue,black);
+	border-radius: 19px;
+	transition: color 0.6s ease-in-out;
+    font-family: calibri;
+    color: yellow;	
+	font-size: 45px;
+
+
+}
